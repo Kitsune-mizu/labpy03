@@ -11,8 +11,7 @@
 
  ![alt text](image.png)
 
-# Python
-     '''python
+### Python
          import random
 
          N = int(input("Masukkan nilai N: "))
@@ -23,7 +22,7 @@
              angka_acak = random.random()
          print(f"data ke: {i} => {angka_acak}")
      print("Selesai")
-     '''
+
 **Penjelasan Kode:**
 1.	import random: Mengimpor modul random yang berisi fungsi untuk menghasilkan angka acak.
 2.	N: Menerima input dari pengguna untuk menentukan jumlah bilangan acak (N) yang ingin ditampilkan. 
@@ -44,6 +43,36 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
 **Contoh Input**
 
  ![alt text](image-2.png)
+
+### Python
+     modal_awal = 100000000
+     laba = 0
+     total_laba = 0
+
+     # Bulan 1 & 2: Belum ada laba
+     for bulan in range(1, 3):
+         print(f"laba bulan ke- {bulan} sebesar: {laba}")
+     # Bulan 3: Laba 1%
+     laba = 0.1 * modal_awal
+     print(f"laba bulan ke- 3 sebesar: {laba}")
+     total_laba += laba
+
+     # Bulan 4: Laba 1%
+     print(f"laba bulan ke- 4 sebesar: {laba}")
+     total_laba += laba
+
+     # Bulan 5 - 7: Laba 5%
+     laba = 0.5 * modal_awal
+     for bulan in range(5, 8):
+         print(f"laba bulan ke- {bulan} sebesar: {laba}")
+         total_laba += laba
+     # Bulan 8: Laba 3%
+     laba = 0.3 * modal_awal
+     print(f"laba bulan ke- 8 sebesar: {laba}")
+     total_laba += laba
+
+     print(f"Total laba adalah: {total_laba}")
+
 
 **Penjelasan Kode:**
 1.	Inisialisasi variabel:
@@ -84,6 +113,28 @@ Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo aw
 
  ![alt text](image-4.png)
  
+### Python
+     saldo = 1000000
+
+     while saldo > 0:
+         print(f"Saldo saat ini: Rp {saldo}")
+         print("1. Tarik Uang")
+         print("2. Keluar")
+         pilihan = int(input("Pilih menu (1/2): "))
+
+     if pilihan == 1:
+         jumlah_penarikan = int(input("Masukkan jumlah penarikan: "))
+        if jumlah_penarikan > saldo:
+             print("Saldo tidak mencukupi!")
+        else:
+             saldo -= jumlah_penarikan
+             print("Penarikan berhasil!")
+     elif pilihan == 2:
+         print("Terima kasih telah menggunakan ATM!")
+         break
+     else:
+         print("Pilihan tidak valid!")
+
 **Penjelasan kode:**
 1.	Inisialisasi saldo:
  * saldo = 1000000: Menetapkan saldo awal sebesar Rp 1.000.000.
