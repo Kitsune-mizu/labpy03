@@ -15,4 +15,4 @@ random_numbers = random_num(n)
 # Menampilkan bilangan acak
 for i, number in enumerate(random_numbers):
   print(f"data ke: {i+1} => {number}")
-print("Selesai")
+print("Selesai") 
