@@ -11,7 +11,7 @@
 
  ![alt text](image.png)
 
-### Python
+**Python**
          import random
 
          N = int(input("Masukkan nilai N: "))
@@ -44,7 +44,7 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
 
  ![alt text](image-2.png)
 
-### Python
+**Python**
      modal_awal = 100000000
      laba = 0
      total_laba = 0
@@ -76,30 +76,30 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
 
 **Penjelasan Kode:**
 1.	Inisialisasi variabel:
- * modal_awal = 100000000: Mendefinisikan modal awal sebesar 100 juta.
- * laba = 0: Menetapkan variabel laba awal dengan nilai 0.
- * total_laba = 0: Menetapkan variabel total_laba awal dengan nilai 0.
+     * modal_awal = 100000000: Mendefinisikan modal awal sebesar 100 juta.
+     * laba = 0: Menetapkan variabel laba awal dengan nilai 0.
+     * total_laba = 0: Menetapkan variabel total_laba awal dengan nilai 0.
 2.	Perulangan untuk bulan 1 & 2 (tidak ada laba):
- * for bulan in range(1, 3):: Melakukan iterasi untuk bulan 1 dan 2.
- * print(f"laba bulan ke- {bulan} sebesar: {laba}"): Menampilkan laba bulan ke-1 dan ke-2 yang masih 0.
+     * for bulan in range(1, 3):: Melakukan iterasi untuk bulan 1 dan 2.
+     * print(f"laba bulan ke- {bulan} sebesar: {laba}"): Menampilkan laba bulan ke-1 dan ke-2 yang masih 0.
 3.	Hitung dan tampilkan laba bulan ke-3 (laba 1%):
- * laba = 0.1 * modal_awal: Menghitung laba bulan ke-3 (1% dari modal awal).
- * print(f"laba bulan ke- 3 sebesar: {laba}"): Menampilkan laba bulan ke-3.
- * total_laba += laba: Menambahkan laba bulan ke-3 ke total_laba.
+     * laba = 0.1 * modal_awal: Menghitung laba bulan ke-3 (1% dari modal awal).
+     * print(f"laba bulan ke- 3 sebesar: {laba}"): Menampilkan laba bulan ke-3.
+     * total_laba += laba: Menambahkan laba bulan ke-3 ke total_laba.
 4.	Hitung dan tampilkan laba bulan ke-4 (laba 1%):
- * print(f"laba bulan ke- 4 sebesar: {laba}"): Menampilkan laba bulan ke-4 (sama dengan bulan ke-3).
- * total_laba += laba: Menambahkan laba bulan ke-4 ke total_laba.
+     * print(f"laba bulan ke- 4 sebesar: {laba}"): Menampilkan laba bulan ke-4 (sama dengan bulan ke-3).
+     * total_laba += laba: Menambahkan laba bulan ke-4 ke total_laba.
 5.	Looping untuk bulan 5-7 (laba 5%):
- * laba = 0.5 * modal_awal: Menghitung laba bulan ke-5 hingga ke-7 (5% dari modal awal).
- * for bulan in range(5, 8):: Melakukan iterasi untuk bulan 5, 6, dan 7.
- * print(f"laba bulan ke- {bulan} sebesar: {laba}"): Menampilkan laba untuk setiap bulan.
- * total_laba += laba: Menambahkan laba setiap bulan ke total_laba.
+     * laba = 0.5 * modal_awal: Menghitung laba bulan ke-5 hingga ke-7 (5% dari modal awal).
+     * for bulan in range(5, 8):: Melakukan iterasi untuk bulan 5, 6, dan 7.
+     * print(f"laba bulan ke- {bulan} sebesar: {laba}"): Menampilkan laba untuk setiap bulan.
+     * total_laba += laba: Menambahkan laba setiap bulan ke total_laba.
 6.	Hitung dan tampilkan laba bulan ke-8 (laba 3%):
- * laba = 0.3 * modal_awal: Menghitung laba bulan ke-8 (3% dari modal awal).
- * print(f"laba bulan ke- 8 sebesar: {laba}"): Menampilkan laba bulan ke-8.
- * total_laba += laba: Menambahkan laba bulan ke-8 ke total_laba.
+     * laba = 0.3 * modal_awal: Menghitung laba bulan ke-8 (3% dari modal awal).
+     * print(f"laba bulan ke- 8 sebesar: {laba}"): Menampilkan laba bulan ke-8.
+     * total_laba += laba: Menambahkan laba bulan ke-8 ke total_laba.
 7.	Menampilkan total laba:
- * print(f"Total laba adalah: {total_laba}"): Menampilkan total laba selama 8 bulan.
+     * print(f"Total laba adalah: {total_laba}"): Menampilkan total laba selama 8 bulan.
 
 **Contoh Output dengan hasil laba selama 8 bulan = 200000000/200 juta**
 
@@ -113,7 +113,7 @@ Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo aw
 
  ![alt text](image-4.png)
  
-### Python
+**Python**
      saldo = 1000000
 
      while saldo > 0:
@@ -137,26 +137,26 @@ Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo aw
 
 **Penjelasan kode:**
 1.	Inisialisasi saldo:
- * saldo = 1000000: Menetapkan saldo awal sebesar Rp 1.000.000.
+      * saldo = 1000000: Menetapkan saldo awal sebesar Rp 1.000.000.
 2.	Pengulangan while:
- * while saldo > 0: Pengulangan akan terus berjalan selama saldo masih lebih besar dari 0.
+     * while saldo > 0: Pengulangan akan terus berjalan selama saldo masih lebih besar dari 0.
 3.	Menampilkan menu dan menerima input:
- * print(f"Saldo saat ini: Rp {saldo}"): Menampilkan saldo saat ini.
- * print("1. Tarik Uang"): Menampilkan pilihan menu pertama.
- * print("2. Keluar"): Menampilkan pilihan menu kedua.
- * pilihan = int(input("Pilih menu (1/2): ")): Menerima input pilihan menu dari pengguna dan mengubahnya menjadi integer.
+     * print(f"Saldo saat ini: Rp {saldo}"): Menampilkan saldo saat ini.
+     * print("1. Tarik Uang"): Menampilkan pilihan menu pertama.
+     * print("2. Keluar"): Menampilkan pilihan menu kedua.
+     * pilihan = int(input("Pilih menu (1/2): ")): Menerima input pilihan menu dari pengguna dan mengubahnya menjadi integer.
 4.	Memproses pilihan menu:
- * if pilihan == 1: Jika pengguna memilih menu 1 (Tarik Uang): 
-     * jumlah_penarikan = int(input("Masukkan jumlah penarikan: ")): Menerima input jumlah penarikan dari pengguna.
-     * if jumlah_penarikan > saldo: Jika jumlah penarikan melebihi saldo, tampilkan pesan "Saldo tidak mencukupi!".
-     * else: Jika saldo mencukupi: 
-     * saldo -= jumlah_penarikan: Kurangi saldo dengan jumlah penarikan.
-     * print("Penarikan berhasil!"): Tampilkan pesan "Penarikan berhasil!".
- * elif pilihan == 2: Jika pengguna memilih menu 2 (Keluar): 
-     * print("Terima kasih telah menggunakan ATM!"): Tampilkan pesan "Terima kasih telah menggunakan ATM!".
-     * break: Keluar dari Pengulangan while.
- * else: Jika pengguna memasukkan pilihan selain 1 atau 2: 
-     * print("Pilihan tidak valid!"): Tampilkan pesan "Pilihan tidak valid!".
+     * if pilihan == 1: Jika pengguna memilih menu 1 (Tarik Uang): 
+         * jumlah_penarikan = int(input("Masukkan jumlah penarikan: ")): Menerima input jumlah penarikan dari pengguna.
+         * if jumlah_penarikan > saldo: Jika jumlah penarikan melebihi saldo, tampilkan pesan "Saldo tidak mencukupi!".
+         * else: Jika saldo mencukupi: 
+         * saldo -= jumlah_penarikan: Kurangi saldo dengan jumlah penarikan.
+         * print("Penarikan berhasil!"): Tampilkan pesan "Penarikan berhasil!".
+     * elif pilihan == 2: Jika pengguna memilih menu 2 (Keluar): 
+         * print("Terima kasih telah menggunakan ATM!"): Tampilkan pesan "Terima kasih telah menggunakan ATM!".
+         * break: Keluar dari Pengulangan while.
+     * else: Jika pengguna memasukkan pilihan selain 1 atau 2: 
+         * print("Pilihan tidak valid!"): Tampilkan pesan "Pilihan tidak valid!".
 
 **Contoh Output Penggunaan**
  
