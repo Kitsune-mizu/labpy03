@@ -12,6 +12,7 @@
  ![alt text](image.png)
 
 #### Python
+
          import random
 
          N = int(input("Masukkan nilai N: "))
@@ -19,9 +20,9 @@
          for i in range(1, N + 1):
              angka_acak = random.random()  # Menghasilkan angka acak antara 0 dan 1
              while angka_acak >= 0.5:  # Ulangi hingga angka_acak < 0.5
-             angka_acak = random.random()
-         print(f"data ke: {i} => {angka_acak}")
-     print("Selesai")
+                angka_acak = random.random()
+             print(f"data ke: {i} => {angka_acak}")
+          print("Selesai")
 
 **Penjelasan Kode:**
 1.	import random: Mengimpor modul random yang berisi fungsi untuk menghasilkan angka acak.
@@ -45,6 +46,7 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
  ![alt text](image-2.png)
 
 #### Python
+
      modal_awal = 100000000
      laba = 0
      total_laba = 0
@@ -97,7 +99,7 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
 6.	Hitung dan tampilkan laba bulan ke-8 (laba 3%):
      * laba = 0.3 * modal_awal: Menghitung laba bulan ke-8 (3% dari modal awal).
      * print(f"laba bulan ke- 8 sebesar: {laba}"): Menampilkan laba bulan ke-8.
-     * total_laba += laba: Menambahkan laba bulan ke-8 ke total_laba.
+     * total_laba += laba: Menambahkan laba bulan ke-8 ke total_laba. 
 7.	Menampilkan total laba:
      * print(f"Total laba adalah: {total_laba}"): Menampilkan total laba selama 8 bulan.
 
@@ -114,6 +116,7 @@ Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo aw
  ![alt text](image-4.png)
  
 #### Python
+
      saldo = 1000000
 
      while saldo > 0:
@@ -161,3 +164,4 @@ Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo aw
 **Contoh Output Penggunaan**
  
 ![alt text](image-5.png)
+
