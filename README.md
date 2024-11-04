@@ -11,7 +11,7 @@
 
  ![alt text](image.png)
 
-**Python**
+#### Python
          import random
 
          N = int(input("Masukkan nilai N: "))
@@ -44,7 +44,7 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
 
  ![alt text](image-2.png)
 
-**Python**
+#### Python
      modal_awal = 100000000
      laba = 0
      total_laba = 0
@@ -113,7 +113,7 @@ Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo aw
 
  ![alt text](image-4.png)
  
-**Python**
+#### Python
      saldo = 1000000
 
      while saldo > 0:
