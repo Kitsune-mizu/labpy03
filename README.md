@@ -12,6 +12,7 @@
  ![alt text](image.png)
 
 # Python
+'''python
      import random
 
      N = int(input("Masukkan nilai N: "))
@@ -21,9 +22,8 @@
           while angka_acak >= 0.5:  # Ulangi hingga angka_acak < 0.5
          angka_acak = random.random()
      print(f"data ke: {i} => {angka_acak}")
-
  print("Selesai")
- 
+'''
 **Penjelasan Kode:**
 1.	import random: Mengimpor modul random yang berisi fungsi untuk menghasilkan angka acak.
 2.	N: Menerima input dari pengguna untuk menentukan jumlah bilangan acak (N) yang ingin ditampilkan. 
