@@ -21,14 +21,17 @@
 7.	print("Selesai"): Menampilkan pesan "Selesai" setelah loop selesai.
 
 **Contoh Output dengan nilai dari N = 5**
- 
+
+ ![alt text](image-1.png)
 
 ### Latihan 2: latihan2.py 
 Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
 
 **Contoh kode program Python3 (Vs Code)**
 **Contoh Input**
- 
+
+ ![alt text](image-2.png)
+
 **Penjelasan Kode:**
 1.	Inisialisasi variabel:
  * modal_awal = 100000000: Mendefinisikan modal awal sebesar 100 juta.
@@ -57,14 +60,17 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
  * print(f"Total laba adalah: {total_laba}"): Menampilkan total laba selama 8 bulan.
 
 **Contoh Output dengan hasil laba selama 8 bulan = 200000000/200 juta**
- 
+
+ ![alt text](image-3.png)
 
 ### Latihan 3: latihan3.py 
 Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo awal sebesar Rp 1.000.000, dan dapat menarik uang hingga saldo habis atau memilih untuk keluar.
-Contoh kode program Python3 (Vs Code)
-Contoh Input
- 
 
+**Contoh kode program Python3 (Vs Code)**
+**Contoh Input**
+
+ ![alt text](image-4.png)
+ 
 **Penjelasan kode:**
 1.	Inisialisasi saldo:
  * saldo = 1000000: Menetapkan saldo awal sebesar Rp 1.000.000.
@@ -90,4 +96,4 @@ Contoh Input
 
 **Contoh Output Penggunaan**
  
-
+![alt text](image-5.png)
